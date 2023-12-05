@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231205 13:55:14.559" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231205 14:00:46.116" rpa="false" schemaversion="4">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\nexsoft\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<kw name="ridho">
-<arg>ridho202208001</arg>
-<msg timestamp="20231205 13:55:16.246" level="FAIL">No keyword with name 'ridho' found.</msg>
-<status status="FAIL" starttime="20231205 13:55:16.245" endtime="20231205 13:55:16.246"/>
+<kw name="ridho202208001">
+<var>${EMPTY}</var>
+<msg timestamp="20231205 14:00:47.928" level="FAIL">No keyword with name 'ridho202208001' found.</msg>
+<status status="FAIL" starttime="20231205 14:00:47.928" endtime="20231205 14:00:47.929"/>
 </kw>
-<status status="PASS" starttime="20231205 13:55:14.653" endtime="20231205 13:55:26.652"/>
+<status status="PASS" starttime="20231205 14:00:46.156" endtime="20231205 14:00:48.014"/>
 </kw>
-<status status="PASS" starttime="20231205 13:55:14.651" endtime="20231205 13:55:26.652"/>
+<status status="PASS" starttime="20231205 14:00:46.155" endtime="20231205 14:00:48.014"/>
 </test>
-<status status="PASS" starttime="20231205 13:55:14.564" endtime="20231205 13:55:26.654"/>
+<status status="PASS" starttime="20231205 14:00:46.121" endtime="20231205 14:00:48.016"/>
 </suite>
 <statistics>
 <total>

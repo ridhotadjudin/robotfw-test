@@ -1,4 +1,6 @@
 *** Settings ***
+Documentation       Login QMA Testing
+
 Library             SeleniumLibrary
 Resource            ../resource/keywords/login_resources.robot
 
@@ -8,9 +10,17 @@ Test Template       Login QMA
 
 
 *** Test Cases ***
-Username benar password benar    ridho    ridho202208001
-Username kosong password benar    ${EMPTY}    ridho202208001
-Username benar password kosong    ridho    ${EMPTY}
+Username benar password benar    [Documentation]    jangan ganti password
+    [Tags]    positive
+    ridho    ridho202208001
+Username kosong password benar    [Tags]    negative
+    ${EMPTY}    ridho202208001
+Username benar password kosong    [Tags]    negative
+    ridho    ${EMPTY}
+
+# ${testcase}    ${username}    ${password}
+#    [Tags]
+#    [Documentation]
 
 
 *** Keywords ***
