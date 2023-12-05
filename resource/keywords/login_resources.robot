@@ -18,7 +18,11 @@ Input Username
     Input Text    username    ${username}
     Sleep    1
 
-Input Username
+Input Password
     [Arguments]    ${password}
     SeleniumLibrary.Input Password    password    ${password}
+    Sleep    1
+
+Click login
+    Click Button    Log in
     Sleep    1
