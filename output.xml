@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231205 13:28:15.227" rpa="false" schemaversion="4">
+<suite id="s1" name="LoginQMATest" source="D:\robotframework-workspace\robotframework-test\test\LoginQMATest.robot">
+<test id="s1-t1" name="Buka QMA" line="7">
+<kw name="Open my browser" library="login_resources">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231205 13:28:15.602" level="INFO">Opening browser 'chrome' to base url 'https://testingqa-office.nexcloud.id/testingqa/automation/webui/login'.</msg>
+<status status="PASS" starttime="20231205 13:28:15.602" endtime="20231205 13:28:18.184"/>
+</kw>
+<status status="PASS" starttime="20231205 13:28:15.602" endtime="20231205 13:28:18.184"/>
+</kw>
+<status status="PASS" starttime="20231205 13:28:15.601" endtime="20231205 13:28:18.186"/>
+</test>
+<status status="PASS" starttime="20231205 13:28:15.230" endtime="20231205 13:28:18.188"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="LoginQMATest">LoginQMATest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
